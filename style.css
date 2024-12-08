@@ -118,3 +118,89 @@ a:hover{
 .hamburger-icon.span:first-child{
     transform:none;
 }
+.section__pic-container{
+    display:flex;
+    height:400px;
+    width:500px;
+    margin-left:90px; 
+  
+}
+.section_text{
+    align-self: center;
+    text-align:center;
+    margin-right:10px;
+}
+ .section_text p{ 
+     font-weight: 600;
+}
+.section_text_p1{
+    text-align:center;
+    margin-bottom:80px;
+}
+.section_text_p1{
+    font-size:1.75rem;
+    margin-bottom:1rem;
+    /* margin-top:1rem; 
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: #666;
+    margin-top: 2px;; */
+}
+.title{
+    font-size:3rem;
+    text-align:center;
+}
+
+.section_text_p2{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 1.5rem;
+   text-align: center;
+
+}
+
+#social_container{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
+.icon{
+    cursor:pointer;
+    height:2rem;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Add space between the buttons */
+}
+.btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.btn-btn-color-2{
+    color:#333;
+    background-color: #f7f7f7;
+    border-color: #333;
+    border-radius: 12px;
+    font-weight: bolder ;
+    padding:12px;
+}
+.btn-btn-color-1{
+    background-color: #333;
+    padding: 12px;
+    color:#fff;
+    gap: 2px;
+    border-radius: 12px;
+    font-weight:bolder;
+}
+
+
+
+
